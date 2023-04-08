@@ -5,20 +5,22 @@ A Python script to read Felica card infomation and input it as keyboard input, w
 ## Summary 
 This is the first of a series of Python scripts to interact with Felica cards. The current script reads the IDm from a Felica card and inputs it as keyboard input at a rate of once per second.
 
+これは、Felicaカードとやりとりする一連のPythonスクリプトの最初のものです。現在のスクリプトは、FelicaカードからIDmを読み取り、1秒に1回の速度でキーボード入力として入力します。
+
 ## Usage
 
 1. First, install the following Python libraries.
 
-\`\`\`
+```
 pip install pyscard 
 pip install pyautogui
-\`\`\`
+```
 
 2. Run the program.
 
-\`\`\`
-python idm_input.py
-\`\`\`
+```
+python Felica_idm_input.py
+```
 
 3. When you hold the IC card over the card reader, the IDm will be entered as a keyboard input.
 
@@ -26,16 +28,16 @@ python idm_input.py
 
 1. まず、以下のPythonライブラリをインストールしてください。
 
-\`\`\`
+```
 pip install pyscard
 pip install pyautogui
-\`\`\`
+```
 
 2. プログラムを実行します。
 
-\`\`\`
-python idm_input.py
-\`\`\`
+```
+python Felica_idm_input.py
+```
 
 3. カードリーダーにICカードをかざすと、IDmがキーボード入力されます。
 

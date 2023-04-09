@@ -5,9 +5,9 @@ A Python script to read Felica card infomation and input it as keyboard input, w
 
 
 ## Summary 
-This is the first of a series of Python scripts to interact with Felica cards. The current script reads the IDm from a Felica card and inputs it as keyboard input at a rate of once per second.
+This is the first of a series of Python scripts to interact with Felica or NFC cards. The current script reads the IDm from a Felica card and inputs it as keyboard input at a rate of once per second.
 
-これは、Felicaカードとやりとりする一連のPythonスクリプトの最初のものです。現在のスクリプトは、FelicaカードからIDmを読み取り、1秒に1回の速度でキーボード入力として入力します。
+これは、Felicaカードとやりとりする一連のPythonスクリプトの最初のものです。現在のスクリプトは、Felicaカード(または他のNFCカード)からIDmを読み取り、1秒に1回の速度でキーボード入力として入力します。
 
 ## Usage
 
